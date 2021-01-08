@@ -1,0 +1,60 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+  width: 700px;
+  height: 450px;
+  margin: 70px auto;
+  /* border: 2px solid rgb(125, 181, 66); */
+  background-color: rgb(47, 47, 47);
+}
+h2{
+  color: rgb(83, 83, 83);
+  /* background-color: #666; */
+  text-shadow: 0px 1px 0px rgba(255,255,255,.5); /* 50% white from bottom */
+  text-align: center;
+  padding-top: 20px;
+}
+#projects{
+  width: 650px;
+  height: 250px;
+  margin: 0px auto;
+}
+ol li{
+  border: 1px dotted black;
+  cursor: pointer;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+ol li:hover{
+  background-color: #d1d1d1;
+}
+#btnAddProject{
+  margin-left: 550px;
+  margin-bottom: 20px;
+}
+#btnAddTask{
+  margin-left: 550px;
+  margin-top: 20px;
+}
+.ui-icon-close{
+  transform: scale(1.5);
+  cursor: pointer;
+}
+#main-container{
+  background-color: rgb(34, 34, 34);
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(83, 83, 83);
+  font-size: large;
+  /* background-color: #666; */
+  text-shadow: 0px 1px 0px rgba(255,255,255,.5); /* 50% white from bottom */
+}
