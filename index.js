@@ -6,7 +6,7 @@ var app = express();
 //access port
 var port = process.env.port || 8000;
 //server activation
-app.listen(8000, function(){
+app.listen(port, function(){
   console.log(`Listening at http://localhost${port}`);
 })
 //app configuration
