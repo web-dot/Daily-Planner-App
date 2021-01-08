@@ -10,7 +10,7 @@ var app = express();
 var port = process.env.PORT || '8000';
 //server activation
 app.listen(port, function(){
-  console.log(`Listening at http://localhost${port}`);
+  console.log(`Listening at ${port}`);
 })
 //app configuration
 
